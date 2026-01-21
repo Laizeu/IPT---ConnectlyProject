@@ -1,0 +1,23 @@
+cat > .gitignore << 'EOF'
+# Virtual env
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Django database (optional: keep or ignore)
+db.sqlite3
+EOF
+
+printf "%s\n" \
+"# Virtual env" \
+"env/" \
+"" \
+"# Python cache" \
+"__pycache__/" \
+"*.pyc" \
+"" \
+"# Django database (optional: keep or ignore)" \
+"db.sqlite3" \
+> .gitignore
