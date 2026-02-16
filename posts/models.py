@@ -1,6 +1,6 @@
 from django.db import models
 
-# Define the Post model - L.Llanto
+# Define the models - L.Llanto
 
 class User(models.Model):
     username = models.CharField(max_length=100, unique=True)  # User's unique username
